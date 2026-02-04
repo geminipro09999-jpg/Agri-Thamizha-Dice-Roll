@@ -57,9 +57,9 @@ const AdminPanel: React.FC<AdminPanelProps> = ({
   };
 
   return (
-    <div className="absolute top-0 left-0 w-full h-full bg-[#1a1a1a]/98 z-[200] p-5 overflow-y-auto flex flex-col backdrop-blur-sm">
+    <div className="fixed inset-0 w-full h-full bg-[#1a1a1a] z-[200] p-5 overflow-y-auto flex flex-col">
       {/* Header */}
-      <div className="flex justify-between items-center border-b-2 border-[#333] pb-4 mb-5 sticky top-0 bg-[#1a1a1a] z-10 flex-wrap gap-2">
+      <div className="flex justify-between items-center border-b-2 border-[#333] pb-4 mb-5 sticky top-0 bg-[#1a1a1a] z-10 flex-wrap gap-2 pt-2">
         <div className="flex items-center gap-3">
           <button onClick={onBackToMenu} className="bg-gray-700 hover:bg-gray-600 text-white px-3 py-1 rounded text-sm font-bold">⬅ Menu</button>
           <div className="text-2xl text-green-600 font-bold">🌾 Admin</div>
