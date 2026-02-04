@@ -1,0 +1,5 @@
+{
+  "name": "Agri Tamizha",
+  "description": "A customized Snakes and Ladders game with an agricultural theme, featuring custom player names, event triggers, and a configurable board.",
+  "requestFramePermissions": []
+}
